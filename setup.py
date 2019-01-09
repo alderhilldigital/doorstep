@@ -45,7 +45,7 @@ setup(
         'sphinx-commands': ['sphinx']
     },
     install_requires=[
-        'Click',
+        'Click==6.7',
         'fiona',
         'shapely',
         'geojson_utils',
